@@ -1,0 +1,34 @@
+<html>
+    <body bgcolor=#00FF00>
+
+        <center>
+
+        <h1> House Price Prediction </h1><br>
+        
+        <form method="POST", action="{{url_for('get_house_cost')}}">
+           <b> crime_rate :  <input type="text", name='a', placeholder="any number"> <br><br>
+            resid_area:  <input type="text", name='b', placeholder="any number"> <br><br>
+            air_qual :  <input type="text", name='c', placeholder="any number"> <br><br>
+            room_num :  <input type="text", name='d', placeholder="any number"> <br><br>
+            age :  <input type="text", name='e', placeholder="any number"> <br><br>
+            dist1 :  <input type="text", name='f', placeholder="any number"> <br><br>
+            dist2 :  <input type="text", name='g', placeholder="any number"> <br><br>
+            dist3 :  <input type="text", name='h', placeholder="any number"> <br><br>
+            dist4 :  <input type="text", name='i', placeholder="any number"> <br><br>
+            teachers :  <input type="text", name='j', placeholder="any number"> <br><br>
+            poor_prop :  <input type="text", name='k', placeholder="any number"> <br><br>
+            airport:  <input type="text", name='l', placeholder="YES,NO"> <br><br>
+            n_hot_rooms  :  <input type="text", name='m', placeholder="any number"> <br><br>
+            rainfall :  <input type="text", name='n', placeholder="any number"> <br><br>
+            bus_ter:  <input type="text", name='o', placeholder="YES"> <br><br>
+            parks :  <input type="text", name='p', placeholder="any number"> <br><br>
+            waterbody : <input type="text", name='q', placeholder="River,Lake"> <br><br><br></b>
+            <input type="submit" , value='predict!' >
+        </form>
+
+    
+        
+    </center>
+
+    </body>
+</html>

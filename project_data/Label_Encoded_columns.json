@@ -1,0 +1,31 @@
+{
+    "airport": {
+        "YES": 1,
+        "NO": 0
+    },
+    "bus_ter": {
+        "YES": 1
+    },
+    "columns": [
+        "crime_rate",
+        "resid_area",
+        "air_qual",
+        "room_num",
+        "age",
+        "dist1",
+        "dist2",
+        "dist3",
+        "dist4",
+        "teachers",
+        "poor_prop",
+        "airport",
+        "n_hot_rooms",
+        "rainfall",
+        "bus_ter",
+        "parks",
+        "waterbody_Lake",
+        "waterbody_Lake and River",
+        "waterbody_None",
+        "waterbody_River"
+    ]
+}
